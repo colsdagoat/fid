@@ -57,7 +57,7 @@
 <h2>Your pizza</h2>
 
 <?php if (!isset($_POST['crust']) && !isset($_POST['toppings']) && !isset($_POST['pizzas'])) { ?>
-<em>Sorry, we did not receive your information. <a href="http://www.blackgoosebistro.com/pizza.html">Try again.</a></em>
+<em>Sorry, we did not receive your information. <a href="pizzadelivery.html">Try again.</a></em>
 <?php } 
   else { ?>
     <ul>
