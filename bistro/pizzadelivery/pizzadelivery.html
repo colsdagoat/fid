@@ -4,10 +4,32 @@
   <meta charset="utf-8" >
    <title>Blackstone Bistro: Pizza-on-Demand</title>
    <style type="text/css">
-      ol, ul { 
-     list-style-type: none;
-      }
-   </style>
+    ol, ul { 
+       list-style-type: none;
+        }
+    body {  
+      background-color: #faf2e4;
+      margin: 0 10%;
+      font-family: sans-serif;
+    }
+    h1 {
+      text-align: center;
+      font-family: serif;
+      font-weight: normal;
+      text-transform: uppercase;
+      border-bottom: 1px solid #57b1dc;
+      margin-top: 30px;
+    }
+  
+    h2 {
+      color: #d1633c;
+      font-size: 1em;
+    }
+    p.disclaimer { 
+      border-top: 1px solid #d1633c; 
+      padding-top: 1em;
+    }
+    </style>
 </head>
 
 <body>
@@ -36,21 +58,21 @@ Your Information
 
 <p>Crust <em>(Choose one)</em>:</p>
 <ul>
-  <li>Classic white</li>
-  <li>Multigrain</li>
-  <li>Cheese-stuffed crust</li>
-  <li>Gluten-free</li>
+  <li><input type="radio" name="crust" value="classicwhite">Classic white</li>
+  <li><input type="radio" name="crust" value="Multigrain">Multigrain</li>
+  <li><input type="radio" name="crust" value="Cheese-stuffed Crust">Cheese-stuffed crust</li>
+  <li><input type="radio" name="crust" value="glutenfree">Gluten-free</li>
 </ul>
 
 <p>Toppings <em>(Choose as many as you want)</em>:</p>
 <ul>
-  <li>Red sauce</li>
-  <li>White sauce</li>
-  <li>Mozzarella Cheese</li>
-  <li>Pepperoni</li>
-  <li>Mushrooms</li>
-  <li>Peppers</li>
-  <li>Anchovies</li>
+  <li><input type="checkbox" name="toppings" value="Redsauce" checked>Red sauce</li>
+  <li><input type="checkbox" name="toppings" value="Whitesauce">White sauce</li>
+  <li><input type="checkbox" name="toppings" value="Mozzarellachesee">Mozzarella Cheese</li>
+  <li><input type="checkbox" name="toppings" value="Pepperoni">Pepperoni</li>
+  <li><input type="checkbox" name="toppings" value="Mushrooms">Mushrooms</li>
+  <li><input type="checkbox" name="toppings" value="Peppers">Peppers</li>
+  <li><input type="checkbox" name="toppings" value="Anchovies">Anchovies</li>
 </ul>
 
 <p>Number</p>
