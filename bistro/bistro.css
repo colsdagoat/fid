@@ -1,0 +1,65 @@
+@font-face {
+    font-family: Indie Flower;
+    src: url(IndieFlower-Regular.ttf);
+}
+@font-face {
+    font-family: Dosis;
+    src: url(Dosis-VariableFont_wght.ttf);
+}
+body {
+                background-color: rgb(231, 227, 190);
+                margin: 0 10%;
+            
+            }
+nav {
+                text-align: left;
+                font-family: Indie Flower;
+                font-weight: bold;
+                margin-top: 0%;
+            
+            }
+h1 {
+                text-align: center;
+                font-family: Indie Flower;
+                font-weight: normal;
+                border-bottom: solid #F7941E; 
+                margin-top: 30px;
+                text-shadow: .05em .05em .3em  white;
+
+
+            }
+h2 {
+                color: #d1633c;
+                font-size: larger;
+                text-align: left;
+                font-family: Dosis;
+            }
+p {
+                text-align: left;
+                font-size: medium;
+                font-family: Indie Flower;
+            }
+footer {
+                border-top: 1px solid #57b1dc;
+                text-align: center;
+                padding-top: 1em;
+            }
+footer img {
+                width: 40px;
+                height: 40px;
+                margin-left: .5em;
+                margin-right: .5em;
+            }
+ul {  font-family: Indie Flower;}
+a {
+                text-decoration: none;
+                color: rgba(235, 151, 100, 0.895);
+            }
+
+a:visited {
+                color: rgb(193, 93, 93);
+            }
+a:hover {
+                color: rgb(255, 255, 255);
+                background-color: rgb(193, 164, 85);
+            }
