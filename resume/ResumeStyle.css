@@ -1,0 +1,93 @@
+@font-face {
+    font-family: Indie Flower;
+    src: url(IndieFlower-Regular.ttf);
+}
+@font-face {
+    font-family: Head;
+    src: url(LilitaOne-Regular.ttf);
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+body {
+    background-color: #B1A2A3;
+}
+h1,h2 {
+    background-color: #C5C5C6;
+    text-align: center;
+    font-family: Head;
+    margin-left: 2em;
+    margin-right: 2em;
+    color: #D1757E;
+
+}
+ul {
+    display: table;
+    margin: 0 auto;
+    font-family: Indie Flower;
+    font-size: 1.25em;
+  }
+
+div{
+    font-size: 1.25em;
+    font-family: Indie Flower;
+}
+h3 {
+    text-align: center;
+    font-size: large;
+    font-family: Head;
+    color: #DFE0E2;
+}
+p {
+    text-align: center;
+    font-size: medium;
+    margin-bottom: 15px;
+}
+strong {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#79313A;
+}
+em {
+    font-family: Indie Flower;
+    color: #6a2a30;
+}
+br  {
+    margin: auto;
+}
+nav {
+    text-align: center;
+    color: blue;
+    text-decoration: none;
+    font-size: 1.5em;
+     
+}
+a {
+    color: #79313A;
+    text-decoration: none;
+}
+a:visited {
+    color: #EB5160;
+    text-decoration: none;
+}
+a:hover {
+    color: #DFE0E2;
+    text-decoration: none;
+    background-color: #071013;
+}
+section {
+    background-color: #B7999C;
+    margin-left: 35%;
+    margin-right: 35%;
+}
+table {
+    font-size: 1.25em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    ont-family: Indie Flower;
+}
